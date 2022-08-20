@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(void) {
+  int num,soma;
+  printf("\nDigite um numero:\n");
+  scanf("%d",&num);
+  soma = num + 10;
+  printf("Numero digitado:%d\n",num);
+  printf("calculo de num é:%d\n",soma);
+  return 0;
+}
