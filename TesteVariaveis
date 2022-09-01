@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int a = 5;//variavel tipo inteira
+float num = 2.4;//variavel numeros reais, quebrados
+double d = 2.6;//é um float com mais precisao
+char ch = 'y';
+int main(void) {
+  //""%d",(variavel) ocupa o lugar e mostra o valor da variavel
+  printf("O valor da variavel 'a':%d\n",a);
+  printf("O valor da variavel 'num':%.1f\n",num);
+  printf("O valor da variavel 'd':%.1lf\n",d);
+  printf("O valor da variavel 'ch':%c\n",ch);  
+  
+  return 0;
+}
